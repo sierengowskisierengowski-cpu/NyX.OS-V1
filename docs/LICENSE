@@ -1,0 +1,45 @@
+NyX.oS Custom License v1.0
+Copyright (c) 2026 Joseph Sierengowski. All rights reserved.
+
+The Night Has Eyes — NyX.oS
+
+TERMS AND CONDITIONS
+
+1. OWNERSHIP
+   NyX.oS, including its name, visual identity, branding, source code,
+   compiled binaries, documentation, and all associated assets are the
+   sole intellectual property of Joseph Sierengowski.
+
+2. PERMITTED USE
+   You may view and study this source code for personal educational
+   purposes only. No other use is permitted without explicit written
+   consent from the author.
+
+3. PROHIBITED USE
+   The following are strictly prohibited without written consent:
+   - Redistribution of source code or binaries in any form
+   - Commercial use of any kind
+   - Modification and redistribution
+   - Use of the NyX.oS name, branding, visual identity, or mascot
+   - Derivative works
+   - Claiming authorship or ownership
+
+4. INTEGRITY PROTECTION
+   All official NyX.oS source files contain embedded watermark
+   signatures. Removal or alteration of these signatures is a violation
+   of this license and will trigger integrity warnings at runtime.
+
+5. COMMIT AUTHORIZATION
+   Only commits cryptographically signed with the authors registered
+   YubiKey GPG key are recognized as official NyX.oS releases.
+   Unauthorized modifications are not endorsed or supported.
+
+6. NO WARRANTY
+   This software is provided as-is with no warranty of any kind.
+
+7. ENFORCEMENT
+   Violations of this license will be pursued to the fullest extent
+   permitted by applicable law.
+
+Contact: jsierengowski@gmail.com
+NyX.oS — Silent. Dark. Purely Functional.
