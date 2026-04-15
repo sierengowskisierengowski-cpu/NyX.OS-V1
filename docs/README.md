@@ -1,10 +1,10 @@
-# NyX.oS V1
+# NyX.x.OS V1
 
 > The Night Has Eyes
 
 **Silent. Dark. Purely Functional.**
 
-NyX.oS is a custom Arch Linux-based operating system with a fully independent desktop environment, integrated security tooling, and a locked visual identity. It is not a theme. It is not a skin. It is its own environment.
+NyX.x.OS is a custom Arch Linux-based operating system with a fully independent desktop environment, integrated security tooling, and a locked visual identity. It is not a theme. It is not a skin. It is its own environment.
 
 ---
 
@@ -12,7 +12,7 @@ NyX.oS is a custom Arch Linux-based operating system with a fully independent de
 
 | Property | Value |
 |----------|-------|
-| Name | NyX.oS |
+| Name | NyX.x.OS |
 | Version | V1 |
 | Base | Arch Linux |
 | Compositor | NyxCompositor (wlroots) |
@@ -47,4 +47,4 @@ Tampering triggers integrity warning at runtime.
 
 ---
 
-NyX.oS — Built by one person. Built to last.
+NyX.x.OS — Built by one person. Built to last.

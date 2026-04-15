@@ -1,4 +1,4 @@
-# NyX.oS Credits
+# NyX.x.OS Credits
 
 ## Author
 

@@ -1,6 +1,6 @@
-# Contributing to NyX.oS
+# Contributing to NyX.x.OS
 
-NyX.oS is a closed personal project. External contributions are not
+NyX.x.OS is a closed personal project. External contributions are not
 accepted at this time.
 
 All changes are made by the author and must follow the build rules

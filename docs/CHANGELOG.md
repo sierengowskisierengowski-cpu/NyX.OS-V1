@@ -1,6 +1,6 @@
-# NyX.oS Changelog
+# NyX.x.OS Changelog
 
-All notable changes to NyX.oS are documented here.
+All notable changes to NyX.x.OS are documented here.
 Format: [VERSION] YYYY-MM-DD — Description
 
 ---
@@ -12,7 +12,7 @@ Format: [VERSION] YYYY-MM-DD — Description
 - Full folder structure established
 - Foundation documents written and locked
 - Brand identity finalized and documented in BRANDING.md
-- NyX.oS Custom License v1.0 authored
+- NyX.x.OS Custom License v1.0 authored
 - YubiKey GPG commit signing configured
 - Watermark integrity system designed
 - Visual identity locked: ink-wash background, muted purple and pink accents,

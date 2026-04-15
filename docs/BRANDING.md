@@ -1,14 +1,14 @@
-# NyX.oS Brand Guide
+# NyX.x.OS Brand Guide
 
-> This document is the final authority on all NyX.oS visual identity decisions.
+> This document is the final authority on all NyX.x.OS visual identity decisions.
 > Nothing ships that contradicts these rules.
 
 ---
 
 ## Name
 
-Always written: NyX.oS
-Never: NYXOS, nyxos, Nyx OS, NyxOS, nyx.os
+Always written: NyX.x.OS
+Never: NYXOS, nyxxos, Nyx OS, NyxOS, nyx.os
 
 ---
 
@@ -38,7 +38,7 @@ Never: NYXOS, nyxos, Nyx OS, NyxOS, nyx.os
 
 ## Background Treatment
 
-The NyX.oS background is never flat black. It has:
+The NyX.x.OS background is never flat black. It has:
 - Organic ink-wash white patches scattered irregularly
 - Each patch different size, opacity, and shape
 - No geometric forms, all edges broken and natural
@@ -85,7 +85,7 @@ Owl. Used on boot splash, about screens, and branding marks.
 
 ---
 
-## What NyX.oS Is NOT
+## What NyX.x.OS Is NOT
 
 - Not neon cyberpunk
 - Not rainbow colored

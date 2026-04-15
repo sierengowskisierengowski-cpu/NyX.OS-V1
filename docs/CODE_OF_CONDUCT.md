@@ -1,6 +1,6 @@
-# NyX.oS Code of Conduct
+# NyX.x.OS Code of Conduct
 
-NyX.oS is a personal project maintained by one author.
+NyX.x.OS is a personal project maintained by one author.
 
 Respect the work. Respect the license. Do not misrepresent ownership.
 
