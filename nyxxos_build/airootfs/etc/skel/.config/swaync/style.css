@@ -1,0 +1,109 @@
+.control-center {
+    background: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-radius: 4px;
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    color: #C8C0C0;
+}
+
+.control-center .notification-row {
+    background: transparent;
+    padding: 4px 0;
+}
+
+.notification {
+    background: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-left: 3px solid #7B5EA7;
+    border-radius: 2px;
+    padding: 8px 12px;
+    margin: 4px 8px;
+    font-family: "JetBrains Mono Nerd Font", monospace;
+}
+
+.notification .summary {
+    color: #C8C0C0;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.notification .body {
+    color: #6A6060;
+    font-size: 9px;
+}
+
+.notification .time {
+    color: #3A3030;
+    font-size: 8px;
+}
+
+.notification.critical {
+    border-left: 3px solid #8B4040;
+}
+
+.notification .close-button {
+    background: transparent;
+    border: none;
+    color: #6A6060;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 2px;
+}
+
+.notification .close-button:hover {
+    background: #111111;
+    color: #C8C0C0;
+}
+
+.notification-action {
+    background: transparent;
+    border: 1px solid #2A2020;
+    border-radius: 2px;
+    color: #6A6060;
+    padding: 4px 12px;
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+
+.notification-action:hover {
+    background: #111111;
+    border-color: #7B5EA7;
+    color: #C8C0C0;
+}
+
+.control-center .widget-title {
+    color: #C8C0C0;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 8px 12px;
+    border-bottom: 1px solid #2A2020;
+}
+
+.control-center .widget-dnd {
+    background: #111111;
+    border: 1px solid #2A2020;
+    border-radius: 2px;
+    margin: 8px;
+    padding: 6px 12px;
+    font-size: 10px;
+}
+
+.control-center .widget-dnd > switch {
+    background: #2A2020;
+    border-radius: 99px;
+}
+
+.control-center .widget-dnd > switch:checked {
+    background: #7B5EA7;
+}
+
+.control-center .widget-dnd > switch slider {
+    background: #C8C0C0;
+    border-radius: 99px;
+}
+
+.blank-window {
+    background: transparent;
+}

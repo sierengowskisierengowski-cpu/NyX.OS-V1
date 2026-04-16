@@ -1,0 +1,12 @@
+gtk-theme-name=Adwaita-dark
+icon-theme-name=Adwaita
+font-name=JetBrains Mono Nerd Font 10
+cursor-theme-name=default
+cursor-theme-size=24
+toolbar-style=GTK_TOOLBAR_BOTH_HORIZ
+toolbar-icons-size=GTK_ICON_SIZE_LARGE_TOOLBAR
+font-hinting=slight
+font-antialiasing=grayscale
+font-rgba-order=rgb
+text-scaling-factor=1.0
+color-scheme=prefer-dark

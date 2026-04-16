@@ -1,0 +1,9 @@
+NAME="NyX.x.OS"
+ID=nyxxos
+ID_LIKE=arch
+PRETTY_NAME="NyX.x.OS 1.0"
+ANSI_COLOR="0;35"
+HOME_URL="https://nyxxos.io"
+SUPPORT_URL="https://nyxxos.io"
+BUG_REPORT_URL="https://nyxxos.io"
+LOGO=nyxxos-logo

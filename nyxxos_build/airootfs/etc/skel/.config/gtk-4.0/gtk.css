@@ -1,0 +1,235 @@
+@define-color accent_color #7B5EA7;
+@define-color accent_bg_color #7B5EA7;
+@define-color accent_fg_color #E8E0E0;
+@define-color window_bg_color #0D0B0B;
+@define-color window_fg_color #C8C0C0;
+@define-color view_bg_color #111111;
+@define-color view_fg_color #C8C0C0;
+@define-color headerbar_bg_color #080808;
+@define-color headerbar_fg_color #C8C0C0;
+@define-color headerbar_border_color #2A2020;
+@define-color headerbar_backdrop_color #080808;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.20);
+@define-color card_bg_color #111111;
+@define-color card_fg_color #C8C0C0;
+@define-color card_shade_color rgba(0, 0, 0, 0.10);
+@define-color popover_bg_color #0D0B0B;
+@define-color popover_fg_color #C8C0C0;
+@define-color sidebar_bg_color #080808;
+@define-color sidebar_fg_color #C8C0C0;
+@define-color sidebar_backdrop_color #080808;
+@define-color dialog_bg_color #0D0B0B;
+@define-color dialog_fg_color #C8C0C0;
+@define-color success_color #4A7B5E;
+@define-color warning_color #7B6E4A;
+@define-color error_color #8B4040;
+@define-color destructive_color #8B4040;
+@define-color theme_selected_bg_color rgba(123, 94, 167, 0.25);
+@define-color theme_selected_fg_color #E8E0E0;
+
+* {
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    outline-color: rgba(123, 94, 167, 0.40);
+}
+
+window, .background {
+    background-color: #0D0B0B;
+    color: #C8C0C0;
+}
+
+headerbar, .titlebar {
+    background-color: #080808;
+    border-bottom: 1px solid #2A2020;
+    color: #C8C0C0;
+    min-height: 36px;
+}
+
+headerbar:backdrop, .titlebar:backdrop {
+    background-color: #080808;
+    color: #6A6060;
+}
+
+headerbar button, .titlebar button {
+    background: transparent;
+    border: none;
+    color: #6A6060;
+    border-radius: 4px;
+}
+
+headerbar button:hover, .titlebar button:hover {
+    background-color: #111111;
+    color: #C8C0C0;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #2A2020;
+    border-radius: 4px;
+    color: #C8C0C0;
+    padding: 4px 12px;
+}
+
+button:hover {
+    background-color: #111111;
+    border-color: #3A3030;
+}
+
+button:active {
+    background-color: #080808;
+}
+
+button:checked {
+    background-color: rgba(123, 94, 167, 0.15);
+    border-color: #7B5EA7;
+}
+
+button.suggested-action {
+    border-color: #7B5EA7;
+    color: #7B5EA7;
+}
+
+button.suggested-action:hover {
+    background-color: rgba(123, 94, 167, 0.15);
+}
+
+button.destructive-action {
+    border-color: #8B4040;
+    color: #8B4040;
+}
+
+button.flat {
+    background: transparent;
+    border-color: transparent;
+}
+
+button.flat:hover {
+    background-color: #111111;
+}
+
+entry, text {
+    background-color: #111111;
+    border: 1px solid #2A2020;
+    border-radius: 2px;
+    color: #C8C0C0;
+    caret-color: #C8C0C0;
+}
+
+entry:focus, text:focus {
+    border-color: #7B5EA7;
+    box-shadow: 0 0 6px rgba(123, 94, 167, 0.20);
+}
+
+.view, textview text, treeview.view {
+    background-color: #111111;
+    color: #C8C0C0;
+}
+
+row:hover {
+    background-color: #111111;
+}
+
+row:selected, row:active {
+    background-color: rgba(123, 94, 167, 0.15);
+}
+
+switch {
+    background-color: #2A2020;
+    border-radius: 99px;
+}
+
+switch:checked {
+    background-color: #7B5EA7;
+}
+
+switch slider {
+    background-color: #C8C0C0;
+    border-radius: 99px;
+}
+
+check, radio {
+    border: 1px solid #2A2020;
+    background-color: #111111;
+}
+
+check:checked, radio:checked {
+    background-color: #7B5EA7;
+    border-color: #7B5EA7;
+}
+
+scale trough {
+    background-color: #2A2020;
+    border-radius: 99px;
+}
+
+scale trough highlight {
+    background-color: #7B5EA7;
+    border-radius: 99px;
+}
+
+scale slider {
+    background-color: #C8C0C0;
+    border-radius: 99px;
+}
+
+scrollbar slider {
+    background-color: transparent;
+    border-radius: 99px;
+    min-width: 4px;
+}
+
+scrollbar:hover slider {
+    background-color: #7B5EA7;
+}
+
+.sidebar, .navigation-sidebar {
+    background-color: #080808;
+    border-right: 1px solid #2A2020;
+}
+
+.sidebar row:selected {
+    background-color: #111111;
+    border-left: 2px solid #7B5EA7;
+}
+
+popover, popover.background {
+    background-color: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: #111111;
+    border: 1px solid #2A2020;
+    border-radius: 4px;
+}
+
+.card:hover {
+    border-color: #3A3030;
+}
+
+dialog, messagedialog {
+    background-color: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-radius: 4px;
+}
+
+separator {
+    background-color: #2A2020;
+}
+
+tooltip {
+    background-color: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-radius: 2px;
+    color: #C8C0C0;
+}
+
+progressbar trough {
+    background-color: #2A2020;
+    border-radius: 99px;
+}
+
+progressbar progress {
+    background-color: #7B5EA7;
+    border-radius: 99px;
+}

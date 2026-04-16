@@ -1,0 +1,125 @@
+* {
+    font-family: "JetBrains Mono Nerd Font", monospace;
+    font-size: 12px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background: rgba(8, 8, 8, 0.95);
+    border-top: 1px solid #2A2020;
+    color: #C8C0C0;
+}
+
+#custom-launcher {
+    color: #7B5EA7;
+    padding: 0 14px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    border-right: 1px solid #2A2020;
+}
+
+#custom-launcher:hover {
+    background: #111111;
+    color: #C8C0C0;
+}
+
+#custom-search {
+    color: #6A6060;
+    padding: 0 10px;
+    border-right: 1px solid #2A2020;
+}
+
+#custom-search:hover {
+    background: #111111;
+    color: #C8C0C0;
+}
+
+#clock {
+    color: #C8C0C0;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+
+#battery {
+    color: #C8C0C0;
+    padding: 0 10px;
+}
+
+#battery.critical {
+    color: #8B4040;
+}
+
+#battery.warning {
+    color: #C8A868;
+}
+
+#network {
+    color: #C8C0C0;
+    padding: 0 10px;
+}
+
+#network.disconnected {
+    color: #8B4040;
+}
+
+#pulseaudio {
+    color: #C8C0C0;
+    padding: 0 10px;
+}
+
+#pulseaudio.muted {
+    color: #6A6060;
+}
+
+#tray {
+    padding: 0 8px;
+    border-left: 1px solid #2A2020;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    color: #C4607A;
+}
+
+#window {
+    color: #7B5EA7;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+
+#workspaces button {
+    color: #6A6060;
+    padding: 0 8px;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #C8C0C0;
+    border-bottom: 2px solid #7B5EA7;
+}
+
+#workspaces button:hover {
+    background: #111111;
+    color: #C8C0C0;
+}
+
+#workspaces button.urgent {
+    color: #8B4040;
+    border-bottom: 2px solid #8B4040;
+}
+
+tooltip {
+    background: #0D0B0B;
+    border: 1px solid #2A2020;
+    border-radius: 2px;
+    color: #C8C0C0;
+}

@@ -1,0 +1,49 @@
+# Desktop Environment
+hyprland
+waybar
+wofi
+kitty
+thunar
+swww
+swaync
+hypridle
+hyprlock
+xdg-desktop-portal-hyprland
+
+# System
+networkmanager
+bluez
+bluez-utils
+pipewire
+wireplumber
+pipewire-pulse
+pavucontrol
+polkit-kde-agent
+
+# Fonts
+ttf-jetbrains-mono-nerd
+
+# Utilities
+firefox
+git
+python
+wl-clipboard
+cliphist
+nm-applet
+blueman
+grim
+slurp
+wl-screenrec
+
+# NyX.x.OS
+plymouth
+sddm
+
+# NOTE — ADD THESE ONLY AFTER VM TEST PASSES:
+# nvidia-dkms
+# nvidia-utils
+# lib32-nvidia-utils
+# egl-wayland
+# linux-headers
+# intel-ucode
+# sof-firmware
